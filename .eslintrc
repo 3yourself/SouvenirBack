@@ -1,0 +1,14 @@
+//npm install --save-dev eslint-config-rallycoding
+{
+  "extends": "eslint:recommended",
+  "env": {
+      "node": true,
+      "commonjs": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "no-console": 0
+  }
+}
